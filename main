@@ -1,0 +1,8 @@
+#input - user will type in a str and output will give an emojized version of input
+#will have to search the input 1) return strings that are no emojized and
+#search for and print out any emojis in installed library (pip install emoji)
+import emoji
+
+user_in = input('Input: ')
+output = emoji.emojize(user_in)
+print('Output: ' , output )
